@@ -1,66 +1,146 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+LANGKAH-LANGKAH PRAKTIKUM
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![Screenshot 2024-11-12 135658](https://github.com/user-attachments/assets/27169c1a-6ef6-40e2-8ba7-eddba1210c13)
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![Screenshot 2024-11-12 135730](https://github.com/user-attachments/assets/f6daa20a-6b25-44e2-a242-6cd8e508a079)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![Screenshot 2024-11-12 135848](https://github.com/user-attachments/assets/a527558b-abc4-486b-be2b-2325270ea391)
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+>Tambahkan	Sanctum's	middleware	di	`app/Http/Kernel.php`
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+![Screenshot 2024-11-12 140220](https://github.com/user-attachments/assets/9c31f2e8-c816-4cb0-8142-5b7db0e77b7e)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+>Emplementasikan	`HasApiTokens`	pada	model	`User`
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![Screenshot 2024-11-12 140311](https://github.com/user-attachments/assets/a25a8033-e889-4a58-a40b-ec2f8b5f1e88)
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+>Tambahkan	metode	registrasi dan login	di	`AuthController`:
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![Screenshot 2024-11-12 140701](https://github.com/user-attachments/assets/bdf18815-5c11-40c5-a53f-94677eb1a9c8)
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+>Buat	model	dan	migration	untuk	`Siswa`
+
+
+![Screenshot 2024-11-12 141331](https://github.com/user-attachments/assets/3c1f856d-9b43-4cee-b949-3d1c4a1beb26)
+
+
+![Screenshot 2024-11-12 141620](https://github.com/user-attachments/assets/9bf6597f-1c30-4dbd-9ff6-314b8b250c2b)
+
+
+
+>Implementasikan	metode	CRUD	di	`SiswaController`	dengan	error	handling:
+
+
+
+![image](https://github.com/user-attachments/assets/044eee77-f945-4a62-b0ef-1239be695d93)
+
+
+
+
+
+PENGUJIAN API
+
+>REGISTER
+
+
+![Screenshot 2024-11-12 144818](https://github.com/user-attachments/assets/818d7d58-a845-460f-8c9e-565f8f21afbc)
+
+
+>LOGIN
+
+
+![Screenshot 2024-11-12 145032](https://github.com/user-attachments/assets/d68255d5-d8ab-49f6-b3d9-b6dd63583e0f)
+
+
+>GET
+
+
+![Screenshot 2024-11-12 145200](https://github.com/user-attachments/assets/3073a244-43a6-41a5-8212-f91078712d04)
+
+
+>POST
+
+
+![Screenshot 2024-11-12 145406](https://github.com/user-attachments/assets/9582af6f-8942-44a5-a018-cf14b77887de)
+
+
+>UPDATE
+
+
+![Screenshot 2024-11-12 145757](https://github.com/user-attachments/assets/68b59f3b-67d5-46fc-860d-0d6f00969053)
+
+
+>DELETE
+
+
+![Screenshot 2024-11-12 150150](https://github.com/user-attachments/assets/6b1694b6-b501-4e9d-a059-7c3a3e357b88)
+
+
+
+
+
+Tugas Tambahan 
+Tambahkan	fitur	validasi	input	yang	lebih	kompleks	dan	tangani	error	dengan	respons	yang	
+lebih	informatif.	
+• Tambahkan	validasi	untuk	memastikan	bahwa:	
+o Nama	siswa	hanya	mengandung	huruf	dan	spasi.	
+o Kelas	mengikuti	format	tertentu	(misalnya,	"XII	IPA	1").	
+o Umur	berada	dalam	rentang	6	hingga	18	tahun.	
+• Respons	Error	yang	Lebih	Informatif:	
+o Modifikasi	respons	error	dengan	menambahkan	kode	status	HTTP	dan	
+pesan	error	yang	lebih	jelas.	Misalnya,	jika	validasi	gagal,	respons	dapat	
+mencakup	detail	kesalahan	yang	spesifik.
+
+
+>![Screenshot 2024-11-12 152250](https://github.com/user-attachments/assets/be6ec5b2-524c-4e03-9f9e-3362bef8b204)
+
+Jika input data tidak sesuai dengan validasi
+
+
+>POST
+
+
+![Screenshot 2024-11-12 152350](https://github.com/user-attachments/assets/d5a23a64-e9e6-4a84-bbc6-b507feb90852)
+
+
+>UPDATE
+
+
+![Screenshot 2024-11-12 152639](https://github.com/user-attachments/assets/1b599f87-6f74-4bcd-b25e-66eb65b64ff8)
+
+
+>GET
+
+
+![Screenshot 2024-11-12 152653](https://github.com/user-attachments/assets/b3ef8395-fd1f-46cb-8787-1ebab42d8d3e)
+
+
+>DELETE
+
+
+![Screenshot 2024-11-12 152708](https://github.com/user-attachments/assets/884e7f8e-bda5-4f47-a783-23c8681b25ef)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
